@@ -70,11 +70,22 @@ p{
     justify-content: space-between;
     align-items: center;
     width: 100%; 
+    height: 25vh;
 }
 
-.me, .abtme{
+.abtme{
     text-align:center;
     width: 100%;
+}
+.contain{
+    display: flex;
+    width: 89vw;
+    height: 65vh;
+    overflow: hidden;
+}
+.insp{
+    width: 100%;
+    height: 100%;
 }
 footer{
     display: flex;
@@ -92,4 +103,14 @@ footer{
         color:#b4cbe3;
         background-color: #4c7454;
     } 
+    .contain{
+        display: flex;
+        width: 100%;
+        height: 45%;
+        overflow: hidden;
+    }
+    .insp{
+        width: 100%;
+        height: 100%;
+    }
 }
