@@ -131,7 +131,7 @@ footer nav{
     align-items: center;
     justify-content: center;
 }
-footer nav a{
+footer .button a{
     font-size: 1.8rem;
     font-family: 'Fira Sans', sans-serif;
     text-align:center;
@@ -142,8 +142,14 @@ footer nav a{
     text-decoration: none;
     border: 1px solid #373D20;
 }
-footer nav a:hover{
+footer .button a:hover{
     background-color: #EFF1ED;
     color: #373D20;
     border: 1px solid #B6C8A9;
+}
+.social{
+    font-size: 3rem;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;  
 }
