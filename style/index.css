@@ -153,3 +153,6 @@ footer .button a:hover{
     justify-content: space-evenly;
     margin-bottom: 2%;  
 }
+.social a:hover{
+    color: #EFF1ED;
+}
