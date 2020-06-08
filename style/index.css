@@ -67,6 +67,7 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 45%;
 }
 header nav a{
     font-size: 1.6rem;
@@ -75,7 +76,7 @@ header nav a{
     text-align:center;
     color:#EFF1ED;
     background-color: #B6C8A9;
-    padding: 4%;
+    padding: 3%;
     text-decoration: none;
     border: 1px solid #373D20;
     margin-bottom: 5%;
@@ -92,6 +93,9 @@ header nav a:hover{
     align-items: center;
     background-color: #9AD5CA;
 }
+.intro p{
+    padding: 0 2%;
+}
 .intro img{
     width: 100%;
     background-image:url('https://images.unsplash.com/photo-1591129190156-73436ca30a0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
@@ -104,7 +108,7 @@ header nav a:hover{
     background-color: #EFF1ED;
     width: 100%;
     display: flex; 
-    
+    border: 22px solid #9AD5CA;
  } 
 .project-image{
     width: 70%;
@@ -117,7 +121,7 @@ header nav a:hover{
 }
 .project-para{
     display: flex;
-    width: 15%; 
+    width: 35%; 
     text-align: center;   
     align-items: center;
     justify-content: center;
@@ -161,6 +165,12 @@ footer .button a:hover{
     color: #EFF1ED;
 }
 
+@media(max-width: 1920px){
+    .project{
+        border: 25px solid #9AD5CA;
+    }
+}
+/* Website was made in 1366x768, so no media query was made */
 @media(max-width: 800px){
     .intro p{
         margin: 0 5%;
@@ -218,5 +228,9 @@ footer .button a:hover{
         width: 45%;
         margin: 2%;
     }
-
+}
+@media(max-width: 360px){
+    .project-image img{
+        width: 90%;
+    }
 }
